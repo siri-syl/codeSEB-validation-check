@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>유효성 검사</title>
+  <link rel="stylesheet" href="style_twitter_ver.css">
+  <script src="validator.js"></script>
+</head>
+
+<body>
+  <div class="container">
+  <div id="userinput">
+    <div id="twitimg" class="twitimg"></div>
+    <h1>회원가입</h1>
+    <div class="subcontainer">
+      <!-- <label>아이디</label> -->
+      <input type="text" id="username" placeholder="이름">
+      <div class="failure-message hide diss">아이디는 네 글자 이상이어야 합니다.</div>
+      <div class="success-message hide diss">사용할 수 있는 아이디입니다.</div>
+    </div>
+
+    <div class="subcontainer">
+      <!-- <label>비밀번호</label> -->
+      <input type="password" id="password" placeholder="비밀번호">
+    </div>
+
+    <div class="subcontainer">
+      <label></label>
+      <input type="password" id="password-retype" placeholder="비밀번호 확인">
+      <div class="mismatch-message hide diss">비밀번호가 일치하지 않습니다.</div>
+    </div>
+
+    <div class="subcontainer">
+    <button class="btn">회원가입</button>
+    </div>
+
+    <script src="script_twitter_ver.js"></script>
+  </div>
+</div>
+</body>
+
+</html>

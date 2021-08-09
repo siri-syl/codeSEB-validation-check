@@ -1,0 +1,107 @@
+* {
+  background-color: #4d91cd;
+}
+
+input:focus {
+  outline:none;
+  border: 3px solid #4d91cd;
+  color:#4d91cd;
+}
+
+input:focus::placeholder {
+  color: #4d91cd;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer {
+  background-color: black;
+}
+
+.twitimg {
+  display: block;
+  margin: 0px auto 2.5em auto;
+  width: 30px;
+  height: 30px;
+  background:url('twit.png') no-repeat;
+  background-size: 30px;
+  filter: brightness(0) invert(1);
+}
+
+#userinput {
+  background-color: black;
+  width: 600px;
+  height: 480px;
+  border-radius: 1.3em;
+  padding: 20px 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.diss {
+  color: white;
+  background-color: black;
+}
+
+fieldset {
+  background-color: black;
+}
+
+h1 {
+  color: #ffffff;
+  background-color: black;
+  font-size: 1.7em;
+  font-family: 'Gothic A1', sans-serif;
+  padding: 0.4em 1em 0.4em 0.5em;
+}
+
+#username {
+  background-color: black;
+  border-radius: 0.3em;
+  overflow:auto;
+  width:580px;
+  height:54px;
+  font-size:1.1em;
+  color: white;
+  margin: 0em auto 1em 0.5em;
+}
+
+#password {
+  background-color: black;
+  border-radius: 0.3em;
+  overflow:auto;
+  width:580px;
+  height:54px;
+  font-size:1.1em;
+  color: white;
+  margin: 0em auto 1em 0.5em;
+}
+
+#password-retype {
+  background-color: black;
+  border-radius: 0.3em;
+  overflow:auto;
+  width:580px;
+  height:54px;
+  font-size:1.1em;
+  color: white;
+  margin: 0em auto 1em 0.5em;
+}
+
+.btn {
+  color: white;
+  background-color: skyblue;
+  border-radius: 1.5em;
+  overflow:auto;
+  width:580px;
+  height:45px;
+  font-size:1em;
+  margin: 2em auto 1em 0.5em;
+}
